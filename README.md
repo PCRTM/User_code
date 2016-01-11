@@ -123,17 +123,26 @@ Email: b.lumanog@nasa.gov
 INSTRUCTION FOR PCRTM INSTALLATION AND RUNNING SAMPLE FORWARD SIMULATION CODE
 
 1a). Click ‘Download Zip’ from webpage ‘https://github.com/PCRTM/INPUTDIR’ to download database files.
+
 1b). Unzip INPUTDIR-master.zip under your designated directory, change the directory name to be ‘INPURDIR’
+
 2a). Click ‘Download Zip’ from webpage ‘https://github.com/PCRTM/IGENERIC’ to download source code files.
+
 2b). Unzip GENERIC-master.zip under your designated directory, change the directory name to be ‘GENERIC’
+
 3). cd to GENERIC directory
+
 4). Make (default compiler ifort)
      You do not need to edit Makefile if you want to switch to ifort debugging mode or gfortran compiler, simply type make intel_debug, make gfortran, make gfortran_debug to use those optional modes
+
 5). make install
 
 6a).  Click ‘Download Zip’ from webpage ‘https://github.com/PCRTM/User_code’ to download user sample files.
+
 6b). Unzip User_code-master.zip under your designated directory, change the directory name to be ‘User_code’.
+
 7). cd ../User_code
+
 8). make to generate executable file ‘FWD_simu_sample.exe’. You need to edit Makefile to choose your fortran compiler.
 
 FWD_simu_sample.exe expects to load databases from the ‘INPUTDIR’ and read a namelist file "pcrtm.in". You can softlink INPUTDIR to the directory where FWD_simu_sample.exe is located The format of pcrtm.in is as follow:
