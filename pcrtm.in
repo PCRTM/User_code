@@ -1,0 +1,13 @@
+$InputPar
+    sensor_id  = 1 	
+    molindx    = 2,    2,    2,    2,    2,    2,   1,   1,   1,   1,   1,   1,   1,   1,   1
+    scalfac    = 1.0,  1.0, 1.0,  1.0,  1.0,  1.0, 1.0,  1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+    jacob      = .false.
+    chdomain   = .true.	
+    jacob_ch   = .false.
+    BT_FLAG    = .true.
+    JACOB_BT   = .false.
+    TR_FLAG    = .false.
+/
+
+
