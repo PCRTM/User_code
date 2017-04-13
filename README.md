@@ -120,7 +120,7 @@ Email: b.lumanog@nasa.gov
 
 
 
-INSTRUCTION FOR PCRTM INSTALLATION AND RUNNING SAMPLE FORWARD SIMULATION CODE
+INSTRUCTION FOR PCRTM INSTALLATION AND RUNNING SAMPLE FORWARD SIMULATION CODE  [wan.wu@ssaihq.com]
 
 1a). Click ‘Download Zip’ from webpage ‘https://github.com/PCRTM/INPUTDIR’ to download database files.
 
