@@ -276,7 +276,7 @@ IMPORTANT VARIABLES ASSOCIATED WITH KEY STRUCTURES
 				R_gaslev(1:nch, 1:nlev, 9)  -- SO2
 				R_gaslev(1:nch, 1:nlev, 10)  -- NO2
 				R_gaslev(1:nch, 1:nlev, 11)  -- NH3
-				R_gaslev(1:nch, 1:nlev, 12)  -- NO3
+				R_gaslev(1:nch, 1:nlev, 12)  -- HNO3
 				R_gaslev(1:nch, 1:nlev, 13)  -- Cl4
 				R_gaslev(1:nch, 1:nlev, 14)  -- F11
 				R_gaslev(1:nch, 1:nlev, 15)  -- F12
